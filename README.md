@@ -4,6 +4,8 @@
   <image src="https://github.com/JavierAM01/Machine-Learnig-in-Games/blob/main/images/ajedrez.gif" style="width:100%; height:12cm;">
 </div>
 
+### Explicación 
+
 Para crear el tablero de ajedrez primero creamos clases para las fichas del juego. Cada una de ellas tiene una función **available_moves()** que 
 nos devuelve las posiciones a las que nos podemos mover desde la posición actual, teniendo en cuenta las demás fichas del tablero. Por último creamos
 la clase **Game** en la que guardará toda información del juego. Guardamos 3 diccionarios principales:
